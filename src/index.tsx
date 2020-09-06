@@ -1,11 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
+
+import App from "./containers/App";
 
 const root = (
   <BrowserRouter>
-    <div>Custom React Template</div>
+    <App />
   </BrowserRouter>
 );
 
-ReactDOM.render(root, document.getElementById('root'));
+ReactDOM.render(root, document.getElementById("root"));
