@@ -8,6 +8,7 @@ install:
 
 script:
   - npm run coveralls
+  - npm run build
 
 deploy:
   provider: pages
