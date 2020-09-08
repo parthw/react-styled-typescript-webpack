@@ -4,6 +4,10 @@
   "homepage": "https://parthw.github.io/react-boilerplate-template",
   "description": "Just another React Template",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parthw/react-boilerplate-template.git"
+  },
   "scripts": {
     "test": "jest",
     "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
