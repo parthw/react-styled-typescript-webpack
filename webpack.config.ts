@@ -1,8 +1,8 @@
+import { CleanWebpackPlugin } from "clean-webpack-plugin";
+import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
+import HTMLWebpackPlugin from "html-webpack-plugin";
 import path from "path";
 import webpack from "webpack";
-import HTMLWebpackPlugin from "html-webpack-plugin";
-import ForkTsCheckerWebpackPlugin from "fork-ts-checker-webpack-plugin";
-import { CleanWebpackPlugin } from "clean-webpack-plugin";
 
 type argvType = {
   mode: "development" | "production";
@@ -72,7 +72,7 @@ export default (env: envType, argv: argvType): webpack.Configuration => {
         DEFAULT_URL_FILE_LOADER_RULE,
       ],
     },
-    devtool: "cheap-module-eval-source-map",
+    devtool: "eval-cheap-module-source-map",
     devServer: {
       hot: true,
       clientLogLevel: "silent",
