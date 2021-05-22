@@ -20,9 +20,3 @@
 3. Create travis-ci account and configure it with new repository.
 4. Create coveralls account and configure it with new repository.
 5. Delete this README.md file.
-
-## Todo
-
-1. Add custom hooks for error, axios, forms etc.
-2. Add code-splitting to webpack configuration.
-3. Not sure I will add ES-Lint or not.
